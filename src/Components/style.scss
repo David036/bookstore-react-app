@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    background-color: rgba(26, 49, 60,255);
+    width: 100%;
+    padding: 40px 0 40px 0;
+    margin-bottom: 15px;
+    .header-section {
+        max-width: 1100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        align-items: center;
+        background-color: transparent;
+h1 {
+    color: rgba(1, 105, 185,255);
+    background-color: transparent;
+}
+
+    }
+}
+.main {
+    background-color: rgba(21,45,52,255);
+    .main-section {
+        background-color: rgba(21,45,52,255);
+    }
+}
+.nav {
+    max-width: 200px;
+    width: 100%;
+    background-color: transparent;
+    .nav-section {
+background-color: transparent;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-item {
+            color: rgba(102,115,122,255);
+            text-decoration: none;
+            list-style: none;
+            background-color: transparent;
+        }
+        a.active {
+            color: rgba(167,171,174,255);
+        }
+    }
+}
+.input-section {
+    max-width:1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.category-input {
+    max-width: 150px;
+    width: 100%;
+}
+#outlined-basic {
+    border: 1px solid rgba(102,115,122,255);
+    color: rgba(102,115,122,255);
+}
+#demo-simple-select-label {
+    color: rgba(102,115,122,255);
+    
+}
+.MuiInputLabel-root {
+    color: rgba(102,115,122,255);
+    background-color: white;
+}
+.MuiFormControl-root {
+    background-color:white ;
+}
+.add-btn {
+    padding: 20px 30px;
+    color:white;
+    background-color:rgba(1, 105, 185,255) ;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+}
+.book {
+    max-width: 1100px;
+    margin: 0 auto 50px auto;
+    background-color: rgba(26, 49, 60,255);
+    padding: 15px;
+    h2 {
+        color: rgba(209, 209, 209, 0.479);
+        margin-bottom: 10px;
+    }
+    h1 {
+        color: white;
+        margin-bottom: 15px;
+    }
+    p {
+      color:  rgba(1, 105, 185,255);
+      margin-bottom: 25px;
+    }
+}
+.btn-block {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    button {
+        border: none;
+        background-color: transparent;
+        color: rgba(1, 105, 185,255);
+        font-size: 17px;   
+        cursor:pointer;  
+    }
+}
+.light-app {
+    .header {
+        background-color: white;
+    }
+    .main {
+        background-color: white;
+    }
+}
